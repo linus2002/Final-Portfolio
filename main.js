@@ -2,6 +2,7 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
+
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
 
@@ -57,6 +58,11 @@ ScrollReveal().reveal(".header__content .btn", {
   delay: 2000,
 });
 
+ScrollReveal().reveal(".social-links", {
+  ...scrollRevealOption,
+  delay: 2500, // Adjust delay as needed
+});
+
 // about container
 ScrollReveal().reveal(".about__image img", {
   ...scrollRevealOption,
@@ -82,6 +88,24 @@ ScrollReveal().reveal(".about__btns", {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+ScrollReveal().reveal(".section__subheader, .section__header", {
+  ...scrollRevealOption,
+  delay: 1000,  // You can adjust this to control the timing of the effect
+});
+
+
+ScrollReveal().reveal(".banner__container", {
+  ...scrollRevealOption,
+  delay: 2300,
+});
+
+ScrollReveal().reveal(".section__header.subheader", {
+  ...scrollRevealOption,
+  delay: 2300, // Adjust delay as needed
+});
+
+
 
 // service container
 ScrollReveal().reveal(".service__card", {
