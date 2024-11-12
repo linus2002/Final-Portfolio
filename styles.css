@@ -537,7 +537,7 @@ nav .logo a {
 
 .client__card p {
   margin-bottom: 1rem;
-  color: var(--text-light);
+  color: var(--white);
 }
 
 .client__card h4 {
